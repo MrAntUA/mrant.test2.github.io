@@ -86,10 +86,36 @@ for(var i=2; i<someBuildArr.length; i++){
 (function renderSomeBuild(){
 	someBuildArr[1].animate({width:130}, 1000);
 	for(var i=2; i<someBuildArr.length; i++){
-		someBuildArr[i].animate({width:110}, (i+3) * 200);
+		someBuildArr[i].animate({width:110}, (i+3) * 200, mina.elastic);
 	}
 	someBuildArr[0].animate({y:62}, 500);
 })();
+
+
+//*****************************************************
+
+var anotherBuild = s.select("#g2982");
+var anotherBuildArr = anotherBuild.selectAll("rect");
+
+anotherBuildArr[0].attr({y:-200});
+anotherBuildArr[1].attr({width:0});
+for (var i = 2; i<anotherBuildArr.length-2; i++) {
+	anotherBuildArr[i].attr({height:0});
+}
+anotherBuildArr[8].attr({y:1000});
+anotherBuildArr[9].attr({y:1000});
+
+
+(function renderanotherBuildArr(){
+	anotherBuildArr[0].animate({y:68}, 1000);
+	anotherBuildArr[1].animate({width:90}, 1000);
+	for (var i = 2; i<anotherBuildArr.length - 2; i++) {
+		anotherBuildArr[i].animate({height:297}, i*250);
+	}
+	anotherBuildArr[8].animate({y:45}, 1500);
+	anotherBuildArr[9].animate({y:5}, 1200);
+})();
+
 
 
 
