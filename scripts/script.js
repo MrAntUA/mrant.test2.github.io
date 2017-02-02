@@ -1,5 +1,5 @@
 var s = Snap("#svg");
-
+//********************************************
 var greyWindows1 = s.select("#greyWindows1");
 greyWindows1.transform("s0 0");
 var greyWindows2 = s.select("#greyWindows2");
@@ -53,7 +53,47 @@ function fouthBuildWindows(){
 }
 
 function fifthBuildWindows(){
-	greyWindows6.animate({"transform" : "s1 1"}, 200);
+	greyWindows6.animate({"transform" : "s1 1"}, 200, moveBgCity);
 }
+
+//**************************************************
+
+var bgCity = s.select("#rect8518");
+bgCity.transform("t1000 0");
+
+var smoleBgCity = s.select("#rect9175");
+smoleBgCity.transform("t-1000 0");
+
+function moveBgCity(){
+	bgCity.animate({"transform":"t0 0"}, 1500, moveSmoleBgCity);
+}
+
+function moveSmoleBgCity(){
+	smoleBgCity.animate({"transform":"t0 0"}, 500);
+}
+
+//**************************************************
+
+var someBuild = s.select("#g3671");
+var someBuildArr = someBuild.selectAll("rect");
+
+someBuildArr[0].attr({y:-200});
+someBuildArr[1].attr({width:0});
+for(var i=2; i<someBuildArr.length; i++){
+	someBuildArr[i].attr({width:0});
+}
+
+(function renderSomeBuild(){
+	someBuildArr[1].animate({width:130}, 1000);
+	for(var i=2; i<someBuildArr.length; i++){
+		someBuildArr[i].animate({width:110}, (i+3) * 200);
+	}
+	someBuildArr[0].animate({y:62}, 500);
+})();
+
+
+
+
+
 
 firstBuildGrow();
