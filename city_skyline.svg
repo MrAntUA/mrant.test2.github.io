@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	<link rel="stylesheet" href="styles/style.css">
-</head>
-<body>
-	<svg id="svg" width="1200" height="600">
-		<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
@@ -3344,450 +3335,448 @@
          width="90.620781"
          id="rect7781"
          style="fill:#bbc0b1;fill-opacity:1;stroke:none" />
-      	<g id="windows">
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         inkscape:tile-h="40"
-	         inkscape:tile-w="19.999928"
-	         inkscape:tile-cy="-1259.6378"
-	         inkscape:tile-cx="-830.00007"
-	         id="path7783"
-	         d="m -1118.7465,-481.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7785"
-	         d="m -1118.7465,-481.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7787"
-	         d="m -1118.7465,-431.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7789"
-	         d="m -1118.7465,-381.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7791"
-	         d="m -1118.7465,-331.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7793"
-	         d="m -1118.7465,-281.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7795"
-	         d="m -1118.7465,-231.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7797"
-	         d="m -1118.7465,-181.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7799"
-	         d="m -1118.7465,-131.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7801"
-	         d="m -1118.7465,-81.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7803"
-	         d="m -1118.7465,-31.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7805"
-	         d="m -1118.7465,18.36218 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7807"
-	         d="m -1118.7465,68.36218 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7809"
-	         d="m -1105.7465,-481.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7811"
-	         d="m -1105.7465,-431.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7813"
-	         d="m -1105.7465,-381.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7815"
-	         d="m -1105.7465,-331.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7817"
-	         d="m -1105.7465,-281.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7819"
-	         d="m -1105.7465,-231.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7821"
-	         d="m -1105.7465,-181.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7823"
-	         d="m -1105.7465,-131.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7825"
-	         d="m -1105.7465,-81.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7827"
-	         d="m -1105.7465,-31.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7829"
-	         d="m -1105.7465,18.36218 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7831"
-	         d="m -1105.7465,68.36218 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7833"
-	         d="m -1092.7466,-481.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7835"
-	         d="m -1092.7466,-431.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7837"
-	         d="m -1092.7466,-381.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7839"
-	         d="m -1092.7466,-331.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7841"
-	         d="m -1092.7466,-281.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7843"
-	         d="m -1092.7466,-231.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7845"
-	         d="m -1092.7466,-181.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7847"
-	         d="m -1092.7466,-131.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7849"
-	         d="m -1092.7466,-81.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7851"
-	         d="m -1092.7466,-31.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7853"
-	         d="m -1092.7466,18.36218 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7855"
-	         d="m -1092.7466,68.36218 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7857"
-	         d="m -1079.7466,-481.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7859"
-	         d="m -1079.7466,-431.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7861"
-	         d="m -1079.7466,-381.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7863"
-	         d="m -1079.7466,-331.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7865"
-	         d="m -1079.7466,-281.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7867"
-	         d="m -1079.7466,-231.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7869"
-	         d="m -1079.7466,-181.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7871"
-	         d="m -1079.7466,-131.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7873"
-	         d="m -1079.7466,-81.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7875"
-	         d="m -1079.7466,-31.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7877"
-	         d="m -1079.7466,18.36218 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7879"
-	         d="m -1079.7466,68.36218 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7881"
-	         d="m -1066.7467,-481.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7883"
-	         d="m -1066.7467,-431.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7885"
-	         d="m -1066.7467,-381.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7887"
-	         d="m -1066.7467,-331.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7889"
-	         d="m -1066.7467,-281.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7891"
-	         d="m -1066.7467,-231.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7893"
-	         d="m -1066.7467,-181.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7895"
-	         d="m -1066.7467,-131.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7897"
-	         d="m -1066.7467,-81.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7899"
-	         d="m -1066.7467,-31.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7901"
-	         d="m -1066.7467,18.36218 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7903"
-	         d="m -1066.7467,68.36218 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7905"
-	         d="m -1053.7467,-481.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7907"
-	         d="m -1053.7467,-431.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7909"
-	         d="m -1053.7467,-381.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7911"
-	         d="m -1053.7467,-331.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7913"
-	         d="m -1053.7467,-281.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7915"
-	         d="m -1053.7467,-231.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7917"
-	         d="m -1053.7467,-181.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7919"
-	         d="m -1053.7467,-131.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7921"
-	         d="m -1053.7467,-81.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7923"
-	         d="m -1053.7467,-31.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7925"
-	         d="m -1053.7467,18.36218 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-	      <path
-	         inkscape:tile-y0="-1279.6378"
-	         inkscape:tile-x0="-840.00003"
-	         id="use7927"
-	         d="m -1053.7467,68.36218 8.5491,0 0,40 -8.5491,0 0,-40 z"
-	         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
-      	</g>
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         inkscape:tile-h="40"
+         inkscape:tile-w="19.999928"
+         inkscape:tile-cy="-1259.6378"
+         inkscape:tile-cx="-830.00007"
+         id="path7783"
+         d="m -1118.7465,-481.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7785"
+         d="m -1118.7465,-481.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7787"
+         d="m -1118.7465,-431.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7789"
+         d="m -1118.7465,-381.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7791"
+         d="m -1118.7465,-331.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7793"
+         d="m -1118.7465,-281.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7795"
+         d="m -1118.7465,-231.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7797"
+         d="m -1118.7465,-181.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7799"
+         d="m -1118.7465,-131.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7801"
+         d="m -1118.7465,-81.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7803"
+         d="m -1118.7465,-31.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7805"
+         d="m -1118.7465,18.36218 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7807"
+         d="m -1118.7465,68.36218 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7809"
+         d="m -1105.7465,-481.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7811"
+         d="m -1105.7465,-431.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7813"
+         d="m -1105.7465,-381.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7815"
+         d="m -1105.7465,-331.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7817"
+         d="m -1105.7465,-281.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7819"
+         d="m -1105.7465,-231.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7821"
+         d="m -1105.7465,-181.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7823"
+         d="m -1105.7465,-131.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7825"
+         d="m -1105.7465,-81.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7827"
+         d="m -1105.7465,-31.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7829"
+         d="m -1105.7465,18.36218 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7831"
+         d="m -1105.7465,68.36218 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7833"
+         d="m -1092.7466,-481.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7835"
+         d="m -1092.7466,-431.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7837"
+         d="m -1092.7466,-381.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7839"
+         d="m -1092.7466,-331.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7841"
+         d="m -1092.7466,-281.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7843"
+         d="m -1092.7466,-231.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7845"
+         d="m -1092.7466,-181.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7847"
+         d="m -1092.7466,-131.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7849"
+         d="m -1092.7466,-81.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7851"
+         d="m -1092.7466,-31.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7853"
+         d="m -1092.7466,18.36218 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7855"
+         d="m -1092.7466,68.36218 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7857"
+         d="m -1079.7466,-481.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7859"
+         d="m -1079.7466,-431.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7861"
+         d="m -1079.7466,-381.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7863"
+         d="m -1079.7466,-331.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7865"
+         d="m -1079.7466,-281.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7867"
+         d="m -1079.7466,-231.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7869"
+         d="m -1079.7466,-181.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7871"
+         d="m -1079.7466,-131.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7873"
+         d="m -1079.7466,-81.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7875"
+         d="m -1079.7466,-31.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7877"
+         d="m -1079.7466,18.36218 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7879"
+         d="m -1079.7466,68.36218 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7881"
+         d="m -1066.7467,-481.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7883"
+         d="m -1066.7467,-431.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7885"
+         d="m -1066.7467,-381.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7887"
+         d="m -1066.7467,-331.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7889"
+         d="m -1066.7467,-281.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7891"
+         d="m -1066.7467,-231.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7893"
+         d="m -1066.7467,-181.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7895"
+         d="m -1066.7467,-131.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7897"
+         d="m -1066.7467,-81.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7899"
+         d="m -1066.7467,-31.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7901"
+         d="m -1066.7467,18.36218 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7903"
+         d="m -1066.7467,68.36218 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7905"
+         d="m -1053.7467,-481.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7907"
+         d="m -1053.7467,-431.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7909"
+         d="m -1053.7467,-381.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7911"
+         d="m -1053.7467,-331.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7913"
+         d="m -1053.7467,-281.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7915"
+         d="m -1053.7467,-231.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7917"
+         d="m -1053.7467,-181.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7919"
+         d="m -1053.7467,-131.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7921"
+         d="m -1053.7467,-81.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7923"
+         d="m -1053.7467,-31.63782 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7925"
+         d="m -1053.7467,18.36218 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:tile-y0="-1279.6378"
+         inkscape:tile-x0="-840.00003"
+         id="use7927"
+         d="m -1053.7467,68.36218 8.5491,0 0,40 -8.5491,0 0,-40 z"
+         style="fill:#6b6f57;fill-opacity:1;stroke:none" />
       <g
          id="g7929">
         <rect
@@ -6914,12 +6903,3 @@
        id="path9164" />
   </g>
 </svg>
-
-	</svg>
-	
-	<script src="scripts/snap.svg-min.js"></script>
-	<script src="scripts/script.js"></script>
-	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
-	<script src="scripts/script.js"></script>
-</body>
-</html>
