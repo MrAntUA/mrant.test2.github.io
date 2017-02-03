@@ -188,41 +188,41 @@ function deleteTrees(treeEl){
 
 function renderTrees(treeEl){
 	for(var i=0;i<treeEl.length;i++){
-		treeEl[i].animate({"transform":"s1 1"}, 300);
+		treeEl[i].animate({"transform":"s1 1"}, 700);
 	}
 };
 
 
 var cloud1 = s.select("#path9164");
 cloud1.transform("s0 0");
-cloud1.animate({"transform":"s1 1"}, 300);
+cloud1.animate({"transform":"s1 1"}, 700);
 
 var cloud2 = s.select("#path8663");
 cloud2.transform("s0 0");
-cloud2.animate({"transform":"s1 1"}, 300);
+cloud2.animate({"transform":"s1 1"}, 700);
 
 var cloud3 = s.select("#path8623");
 cloud3.transform("s0 0");
-cloud3.animate({"transform":"s1 1"}, 300);
+cloud3.animate({"transform":"s1 1"}, 700);
 
 var cloud4 = s.select("#path8733");
 cloud4.transform("s0 0");
-cloud4.animate({"transform":"s1 1"}, 300);
+cloud4.animate({"transform":"s1 1"}, 700);
 
 
 var cloud5 = s.select("#path8731");
 cloud5.transform("s0 0");
-cloud5.animate({"transform":"s1 1"}, 300);
+cloud5.animate({"transform":"s1 1"}, 700);
 
 
 var cloud6 = s.select("#path8727");
 cloud6.transform("s0 0");
-cloud6.animate({"transform":"s1 1"}, 300);
+cloud6.animate({"transform":"s1 1"}, 700);
 
 
 var cloud7 = s.select("#path8623");
 cloud7.transform("s0 0");
-cloud7.animate({"transform":"s1 1"}, 300);
+cloud7.animate({"transform":"s1 1"}, 700);
 
 
 
