@@ -88,7 +88,7 @@ for(var i=2; i<someBuildArr.length; i++){
 	for(var i=2; i<someBuildArr.length; i++){
 		someBuildArr[i].animate({width:110}, (i+3) * 200, mina.elastic);
 	}
-	someBuildArr[0].animate({y:62}, 500);
+	someBuildArr[0].animate({y:62}, 800);
 })();
 
 
@@ -105,7 +105,6 @@ for (var i = 2; i<anotherBuildArr.length-2; i++) {
 anotherBuildArr[8].attr({y:1000});
 anotherBuildArr[9].attr({y:1000});
 
-
 (function renderanotherBuildArr(){
 	anotherBuildArr[0].animate({y:68}, 1000);
 	anotherBuildArr[1].animate({width:90}, 1000);
@@ -115,6 +114,117 @@ anotherBuildArr[9].attr({y:1000});
 	anotherBuildArr[8].animate({y:45}, 1500);
 	anotherBuildArr[9].animate({y:5}, 1200);
 })();
+
+var tree1 = s.select("#g9087");
+var tree1Arr = tree1.selectAll("path");
+deleteTrees(tree1Arr);
+renderTrees(tree1Arr);
+
+var tree2 = s.select("#g8806");
+var tree2Arr = tree2.selectAll("path");
+deleteTrees(tree2Arr);
+renderTrees(tree2Arr);
+
+var tree3 = s.select("#g8973");
+var tree3Arr = tree3.selectAll("path");
+deleteTrees(tree3Arr);
+renderTrees(tree3Arr);
+
+var tree4 = s.select("#g8945");
+var tree4Arr = tree4.selectAll("path");
+deleteTrees(tree4Arr);
+renderTrees(tree4Arr);
+
+var tree5 = s.select("#g9124");
+var tree5Arr = tree5.selectAll("path");
+deleteTrees(tree5Arr);
+renderTrees(tree5Arr);
+
+var tree6 = s.select("#g8967");
+var tree6Arr = tree6.selectAll("path");
+deleteTrees(tree6Arr);
+renderTrees(tree6Arr);
+
+var tree7 = s.select("#g8863");
+var tree7Arr = tree7.selectAll("path");
+deleteTrees(tree7Arr);
+renderTrees(tree7Arr);
+
+var tree8 = s.select("#g9146");
+var tree8Arr = tree8.selectAll("path");
+deleteTrees(tree8Arr);
+renderTrees(tree8Arr);
+
+var tree9 = s.select("#g8951");
+var tree9Arr = tree9.selectAll("path");
+deleteTrees(tree9Arr);
+renderTrees(tree9Arr);
+
+var tree10 = s.select("#g9136");
+var tree10Arr = tree10.selectAll("path");
+deleteTrees(tree10Arr);
+renderTrees(tree10Arr);
+
+var tree11 = s.select("#g9103");
+var tree11Arr = tree11.selectAll("path");
+deleteTrees(tree11Arr);
+renderTrees(tree11Arr);
+
+var tree12 = s.select("#g8819");
+var tree12Arr = tree12.selectAll("path");
+deleteTrees(tree12Arr);
+renderTrees(tree12Arr);
+
+var tree13 = s.select("#g8870");
+var tree13Arr = tree13.selectAll("path");
+deleteTrees(tree13Arr);
+renderTrees(tree13Arr);
+
+function deleteTrees(treeEl){
+	for(var i=0;i<treeEl.length;i++){
+		treeEl[i].transform("s0 0");
+	}
+}
+
+function renderTrees(treeEl){
+	for(var i=0;i<treeEl.length;i++){
+		treeEl[i].animate({"transform":"s1 1"}, 300);
+	}
+};
+
+
+var cloud1 = s.select("#path9164");
+cloud1.transform("s0 0");
+cloud1.animate({"transform":"s1 1"}, 300);
+
+var cloud2 = s.select("#path8663");
+cloud2.transform("s0 0");
+cloud2.animate({"transform":"s1 1"}, 300);
+
+var cloud3 = s.select("#path8623");
+cloud3.transform("s0 0");
+cloud3.animate({"transform":"s1 1"}, 300);
+
+var cloud4 = s.select("#path8733");
+cloud4.transform("s0 0");
+cloud4.animate({"transform":"s1 1"}, 300);
+
+
+var cloud5 = s.select("#path8731");
+cloud5.transform("s0 0");
+cloud5.animate({"transform":"s1 1"}, 300);
+
+
+var cloud6 = s.select("#path8727");
+cloud6.transform("s0 0");
+cloud6.animate({"transform":"s1 1"}, 300);
+
+
+var cloud7 = s.select("#path8623");
+cloud7.transform("s0 0");
+cloud7.animate({"transform":"s1 1"}, 300);
+
+
 
 
 
