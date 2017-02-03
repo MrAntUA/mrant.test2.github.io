@@ -54,6 +54,7 @@ function fouthBuildWindows(){
 
 function fifthBuildWindows(){
 	greyWindows6.animate({"transform" : "s1 1"}, 200, moveBgCity);
+	switchLight();
 }
 
 //**************************************************
@@ -222,11 +223,38 @@ cloud6.animate({"transform":"s1 1"}, 700);
 
 var cloud7 = s.select("#path8623");
 cloud7.transform("s0 0");
-cloud7.animate({"transform":"s1 1"}, 700);
+cloud7.animate({"transform":"s1 1"}, 700, moveCloud);
+
+function moveCloud(){
+	cloud2.animate({"transform":"t500 0"}, 5000);
+	cloud3.animate({"transform":"t500 0"}, 5000);
+
+	cloud4.animate({"transform":"t-500 0"}, 5000);
+	cloud5.animate({"transform":"t-500 0"}, 5000, moveCloudRevers);
+
+	function moveCloudRevers(){
+		cloud2.animate({"transform":"t-500 0"}, 5000);
+		cloud3.animate({"transform":"t-500 0"}, 5000);
+
+		cloud4.animate({"transform":"t500 0"}, 5000);
+		cloud5.animate({"transform":"t500 0"}, 5000, moveCloud);
+	}
+}
 
 
+function switchLight(){
+	var bigBuildArr = s.select("#g7603");
+	var blinkWindows = bigBuildArr.selectAll("path");
 
+	var rand = 89;
 
+	setInterval(function(){
+		blinkWindows[rand].attr({fill:"#6b6f57"});
+		rand = 0 + Math.random() * (183 - 0);
+		rand = Math.round(rand);
+		blinkWindows[rand].attr({fill:"#f4f142"});
+	}, 3000);
+}
 
 
 
