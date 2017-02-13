@@ -41,17 +41,21 @@
       <div class="search-form">
         <div class="search-block container">
           <h2>What are you looking for?</h2>
+          <div class="select-container clear-fix">
+            <div data-select="1" data-selection="select-1" class="select select-1"><span>Some-1 option</span><i class="fa fa-chevron-down"></i>
+              <div data-selection="select-1" data-select="1" class="select-item"><span>Some-1 option</span></div>
+              <div data-selection="select-2" data-select="1" class="select-item"><span>Some-2 option</span></div>
+              <div data-selection="select-3" data-select="1" class="select-item"><span>Some-3 option</span></div>
+            </div>
+            <div data-select="2" data-selection="select-4" class="select select-2"><span>Some-4 option</span><i class="fa fa-chevron-down"></i>
+              <div data-select="2" class="select-block">
+                <div data-selection="select-4" data-select="2" class="select-item"><span>Some-4 option</span></div>
+                <div data-selection="select-5" data-select="2" class="select-item"><span>Some-5 option</span></div>
+                <div data-selection="select-6" data-select="2" class="select-item"><span>Some-6 option</span></div>
+              </div>
+            </div>
+          </div>
           <form>
-            <select class="select">
-              <option>Some option</option>
-              <option>Some option</option>
-              <option>Some option</option>
-            </select>
-            <select class="select">
-              <option>Some option</option>
-              <option>Some option</option>
-              <option>Some option</option>
-            </select>
             <input placeholder="Keyword, name, data...">
             <input type="submit" value="Search">
           </form>
@@ -61,10 +65,7 @@
     <aside class="filter container clear-fix">
       <div class="categories"><span class="active">Recommended</span><span>Latest</span><span>Highlights</span></div>
       <div class="filter-select">
-        <select>
-          <option>Some option</option>
-          <option>Some option</option>
-        </select>
+        <div class="filter-map-select"><span class="filter-map-label">Show map</span><i class="fa fa-chevron-down"></i></div>
         <div class="filter-map-block"><span class="filter-map-label">Show map</span><i class="fa fa-map-marker"></i></div>
       </div>
       <div class="filter-icons">
