@@ -1,11 +1,13 @@
 (function main(){
-
+	var i = 0;
+	var j = 10;
 	function createElements(){
-		for(var i = 0; i < 50; i++){
+		for(i ; i < j; i++){
 			$("body").append("<div class=\"element\"></div>");
 			setColor($(".element")[i]);
 			moveElement($(".element")[i]);
 		}
+		j += 1;
 	}
 
 	function setColor(element){
@@ -19,9 +21,10 @@
 		var randSpeed = Math.round(3 - 0.5 + Math.random() * (10 - (3) + 1));
 		var elTop = parseInt($(element).css("top"));
 		var elLeft = parseInt($(element).css("left"));
-		$(element).css({"top": elTop + randPosX + "px", "left": elLeft + randPosY + "px", "opacity":"0", "transition": randSpeed + "s", "transform":"scale(10)"});
+		$(element).css({"top": elTop + randPosX + "px", "left": elLeft + randPosY + "px", "opacity":"0", "transition": randSpeed + "s"});
 	}
 
-	createElements();
+	setInterval(createElements, 100);
+	//createElements();
 
 })();
