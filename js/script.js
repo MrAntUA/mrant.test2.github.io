@@ -19,7 +19,7 @@ request.onload = function () {
 		for (var i = 0; i < width; i++) {
 			bar_x = i*2;
 			bar_width = 2;
-			bar_height = data[step*i] * amp;
+			bar_height = (data[step*i] * amp) + 1;
 			bar_height > 0 ? bar_height*=-1 : bar_height;
 			ctx.fillRect(bar_x, canvas.height/2, bar_width, bar_height);
 		}
