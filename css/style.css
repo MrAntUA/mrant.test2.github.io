@@ -1,0 +1,10 @@
+#cursor{
+	width: 1px;
+	height: 70px;
+	background-color: red;
+	position: absolute;
+	top: calc(50% - 35px);
+}
+.container{
+	position: relative;
+}
