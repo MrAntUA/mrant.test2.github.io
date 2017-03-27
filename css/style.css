@@ -3,7 +3,7 @@
 	height: 70px;
 	background-color: red;
 	position: absolute;
-	top: calc(50% - 35px);
+	top: calc(50% - 60px);
 }
 .container{
 	position: relative;
