@@ -1,0 +1,402 @@
+@import "font";
+@import "common";
+
+.main-wrap
+	width: 100%
+	height: 100vh
+	display: flex
+	flex-direction: column
+	justify-content: space-between
+	position: relative
+	background-color: #f0f0c1
+
+.header
+	width: 100%
+	padding: 30px 30px 0
+
+.header_logo
+	float: left
+	width: 176px
+	height: 68px
+	background-image: url("../img/icons/logo.png")
+
+.menu
+	float: right
+
+.menu-label
+	margin-bottom: 5px
+	padding-bottom: 3px
+	border-bottom: 1px solid #000
+	font-family: "CalibreM"
+	font-size: 20px
+	color: #000
+
+.menu-points
+	font-size: 0
+
+.menu-points .point
+	width: 34px
+	height: 34px
+	display: inline-block
+	margin: 0 3px
+	cursor: pointer
+
+.point-1
+	background-image: url("../img/icons/ic_info.png")
+
+.point-2
+	background-image: url("../img/icons/ic_book.png")
+
+.point-3
+	background-image: url("../img/icons/ic_team.png")
+
+.point-4
+	background-image: url("../img/icons/ic_mail.png")
+
+.point-1:hover, .point-1.active
+	background-image: url("../img/icons/ic_info-active.png")
+
+.point-2:hover, .point-2.active
+	background-image: url("../img/icons/ic_book-active.png")
+
+.point-3:hover, .point-3.active
+	background-image: url("../img/icons/ic_team-active.png")
+
+.point-4:hover, .point-4.active
+	background-image: url("../img/icons/ic_mail-active.png")
+
+.main-container
+	height: 450px
+	width: 100%
+	background-image: url("../img/main-bg/main-bg.jpg")
+
+.project .main-container
+	background-image: url("../img/main-bg/info-bg.jpg")
+
+.team .main-container
+	background-image: url("../img/main-bg/team-bg.jpg")
+
+.contact .main-container
+	background-image: url("../img/main-bg/contact-bg.jpg")
+
+.main-container_label
+	margin-bottom: 20px
+	text-align: center
+	font-family: "CalibreR"
+	font-size: 32px
+
+.main-container_label span
+	font-weight: 700
+
+.footer
+	padding: 30px
+	font-size: 12px
+	letter-spacing: 0.5px
+	font-family: "CalibreB"
+	color: #000
+
+.main-content
+	height: 100%
+	text-align: right
+	font-size: 0
+
+.main-content_left
+	display: inline-block
+	width: calc(100% - 410px)
+	vertical-align: top
+
+.main-content_right
+	width: 410px
+	height: 100%
+	display: inline-block
+	position: relative
+	padding: 30px
+	text-align: left
+	color: #fff
+	background-color: #060f3d
+	vertical-align: top
+
+.main-content_right p
+	margin: 15px 0
+	font-family: "CalibreL"
+	font-size: 16px
+	line-height: 18px
+
+.main-content_right-label
+	font-family: "CalibreR"
+	font-size: 24px
+
+.main-content_right-label span
+	font-weight: 700
+
+.contact-tel
+	display: inline-block
+	vertical-align: top
+
+.contact-tel-wrap
+	margin: 15px 0
+
+.contact-tel-left
+	width: 70px
+
+.contact-maps
+	color: #fff
+	text-decoration: none
+
+.contact-text
+	margin: 15px 0
+	font-family: "CalibreL"
+	font-size: 16px
+	line-height: 18px
+
+.contact-label
+	font-family: "CalibreM"
+	font-weight: 900
+
+.square
+	width: 175px
+	height: 150px
+	font-size: 16px
+	text-align: center
+	line-height: 150px
+	background-color: rgba(6, 15, 61, .5)
+	border: 1px solid rgba(255, 255, 255, .1)
+	cursor: pointer
+	color: #fff
+	font-family: "CalibreM"
+	font-size: 0
+	transition: .5s
+	animation: square-open .3s linear
+
+.main-content_left-col
+	display: inline-block
+	vertical-align: top
+
+.team .square
+	background-color: rgba(255, 255, 255, .5)
+	border: 1px solid rgba(0, 0, 0, .1)
+
+@keyframes square-open
+	0%
+		transform: rotateX(0deg)
+
+	50%
+		transform: rotateX(180deg)
+
+	100%
+		transform: rotateX(360deg)
+
+.main-content_right-text__subtitle
+	font-family: "CalibreR"
+	font-size: 26px
+
+.main-content_right-text__subtitle span
+	font-family: "CalibreM"
+
+.item
+	width: calc(100% - 20px)
+	display: none
+	position: relative
+
+.item_label
+	font-family: "CalibreM"
+	font-size: 22px
+
+.item_sublabel
+	font-family: "CalibreR"
+	font-size: 20px
+
+.item_text
+	font-family: "CalibreL"
+	font-size: 14px
+
+.item_img
+	margin: 20px 0
+
+.item .contact-text
+	font-size: 14px
+
+.item a
+	font-size: 14px
+
+.close-button
+	display: none
+	width: 20px
+	height: 20px
+	position: absolute
+	right: 30px
+	top: 30px
+	padding: 7px 0 0 2px 
+	border: 1px solid #fff
+	cursor: pointer
+
+.close-button .line-left, .close-button .line-right
+	width: 80%
+	height: 2px
+	display: inline-block
+	background-color: #fff
+	transform-origin: 60% 50%
+
+.close-button .line-left
+	transform: rotate(-45deg)
+
+.close-button .line-right
+	transform: rotate(45deg)
+
+.main-content_left-content__item
+	display: none
+
+.square-img
+	width: 175px
+	height: 150px
+	position: relative
+	cursor: pointer
+	background-size: cover
+	background-position: center center
+	background-color: #fff
+
+.square-img:before
+	content: ''
+	width: 100%
+	height: 100%
+	position: absolute
+	top: 0
+	left: 0
+	transition: .4s
+
+.square-img:hover:before
+	background-color: rgba(255, 255, 255, .5)
+
+.square-img-1-1
+	background-image: url(../img/retail/retail-1.png)
+
+.square-img-1-2
+	background-image: url(../img/retail/retail-2.png)
+
+.square-img-1-3
+	background-image: url(../img/retail/retail-3.png)
+
+.square-img-1-4
+	background-image: url(../img/retail/retail-4.png)
+
+.square-img-1-5
+	background-image: url(../img/retail/retail-5.png)
+
+.square-img-1-6
+	background-image: url(../img/retail/retail-6.png)
+
+.square-img-1-7
+	background-image: url(../img/retail/retail-7.png)
+
+.square-img-2-1
+	background-image: url(../img/schools/school-1/school-1.jpg)
+
+.square-img-2-2
+	background-image: url(../img/schools/school-2/school-1.jpg)
+
+.square-img-2-3
+	background-image: url(../img/schools/school-3/school-1.jpg)
+
+.square-img-2-4
+	background-image: url(../img/schools/school-4/school-1.jpg)
+
+.square-img-2-5
+	background-image: url(../img/schools/school-5/school-1.jpg)
+
+.square-img-3-1
+	background-image: url(../img/hotels/hotel-1/hotel-1.jpg)
+
+.square-img-3-2
+	background-image: url(../img/hotels/hotel-2/hotel-1.jpg)
+
+.square-img-3-3
+	background-image: url(../img/hotels/hotel-3/hotel-1.jpg)
+
+.square-img-3-4
+	background-image: url(../img/hotels/hotel-4/hotel-2.jpg)
+
+.square-img-3-5
+	background-image: url(../img/hotels/hotel-5/hotel-1.jpg)
+
+.square-img-4-1
+	background-image: url(../img/cultuurs/cultuur-1/cultuur-1.jpg)
+
+.square-img-4-2
+	background-image: url(../img/cultuurs/cultuur-2/cultuur-1.jpg)
+
+.square-img-4-3
+	background-image: url(../img/cultuurs/cultuur-3/cultuur-1.jpg)
+
+.square-img-5-1
+	background-image: url(../img/zorgs/zorg-1/zorg-1.jpg)
+
+.square-img-5-2
+	background-image: url(../img/zorgs/zorg-2/zorg-1.jpg)
+
+.square-img-5-3
+	background-image: url(../img/zorgs/zorg-3/zorg-1.jpg)
+
+.square-img-6-1
+	background-image: url(../img/brandweer/brandweer-1/brandweer-1.jpg)
+
+.square-img-6-2
+	background-image: url(../img/brandweer/brandweer-2/brandweer-1.jpg)
+
+.square-img-7-1
+	background-image: url(../img/kantorens/kantoren-1/kantoren-1.jpg)
+
+.square-img-7-2
+	background-image: url(../img/kantorens/kantoren-2/kantoren-1.jpg)
+
+.square-img-7-3
+	background-image: url(../img/kantorens/kantoren-3/kantoren-1.jpg)
+
+.square-img-7-4
+	background-image: url(../img/kantorens/kantoren-4/kantoren-1.jpg)
+
+.main-content_left-detail-img
+	height: 450px
+	width: 80%
+	display: none
+	display: inline-block
+	background-size: cover
+
+.slider
+	display: none
+	position: relative
+
+.slides
+	height: 450px
+
+.slider-content-container > div
+	display: none
+
+.slider-content_label
+	font-size: 24px
+	font-family: "CalibreM"
+
+.slider-content-content
+	margin-top: 20px
+	font-size: 16px
+	font-family: "CalibreR"
+
+.back-btn
+	font-size: 14px
+	font-family: "CalibreR"
+	cursor: pointer
+
+@media(max-width: 1200px)
+	.main-wrap
+		height: auto
+		min-height: 100vh
+
+	.team .main-container
+		height: auto
+
+	.main-content_left
+		text-align: center
+		width: 100%
+
+	.main-content_right
+		width: 100%
+		height: auto
