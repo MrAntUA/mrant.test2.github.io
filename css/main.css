@@ -250,7 +250,11 @@ table {
 .contact-tel {
   display: inline-block;
   vertical-align: top;
+}
+
+.contact-tel a {
   color: #fff;
+  text-decoration: none;
 }
 
 .contact-tel-wrap {
