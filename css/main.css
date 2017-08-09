@@ -250,6 +250,7 @@ table {
 .contact-tel {
   display: inline-block;
   vertical-align: top;
+  color: #fff;
 }
 
 .contact-tel-wrap {
@@ -635,6 +636,11 @@ table {
   display: none;
 }
 
+.info .svg-container {
+  left: -webkit-calc(50% - 370px);
+  left: calc(50% - 370px);
+}
+
 @media (max-width: 1200px) {
   .main-wrap {
     height: auto;
@@ -660,6 +666,13 @@ table {
   .back-btn {
     position: absolute;
     bottom: 10px;
+  }
+  .slider-content-container {
+    padding-bottom: 30px;
+  }
+  .info .svg-container {
+    left: -webkit-calc(50% - 173px);
+    left: calc(50% - 173px);
   }
 }
 
@@ -738,6 +751,18 @@ table {
   .svg-contact-static {
     display: block;
     height: 50px;
+  }
+  .square-img {
+    width: 145px;
+    height: 110px;
+  }
+  .square-img-first {
+    margin: 0 auto;
+  }
+  .info .svg-container {
+    left: -webkit-calc(50% - 129px);
+    left: calc(50% - 129px);
+    top: 30px;
   }
 }
 
@@ -820,5 +845,10 @@ table {
   }
   .svg-contact-static {
     height: 40px;
+  }
+  .info .svg-container {
+    left: -webkit-calc(50% - 113px);
+    left: calc(50% - 113px);
+    top: 22px;
   }
 }
