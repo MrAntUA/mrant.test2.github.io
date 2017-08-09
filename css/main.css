@@ -593,6 +593,8 @@ table {
   font-size: 14px;
   font-family: "CalibreR";
   cursor: pointer;
+  position: absolute;
+  bottom: 30px;
 }
 
 .main-container {
@@ -654,6 +656,10 @@ table {
     bottom: 457px;
     left: -webkit-calc(50% - 244px);
     left: calc(50% - 244px);
+  }
+  .back-btn {
+    position: absolute;
+    bottom: 10px;
   }
 }
 
