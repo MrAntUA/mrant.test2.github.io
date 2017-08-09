@@ -1,64 +1,124 @@
-var context = new AudioContext();
-var request = new XMLHttpRequest();
-request.open('GET', 'https://mrantua.github.io/mrant.test2.github.io/sounds/track3.mp3', true);
-request.responseType = "arraybuffer";
-request.onload = function () {
-    context.decodeAudioData(request.response, function (buffer) {
-        var data = buffer.getChannelData(0),
-        canvas = document.getElementById('vis'),
-        width = canvas.width,
-        height = canvas.height,
-        ctx = canvas.getContext('2d'),
-        step = Math.ceil(data.length / width),
-        amp = 100;
+function setSquareAnimation(){
+	// Start animation duration
+	var duration = 0.1;
+	var count = 0.1;
 
-        var bars_arr = [];
+	// Counting durition 
+	$(".square").each(function(index){
+		$(this).css("animation-delay", duration +"s");
+		duration += count;
+	});
 
+	setTimeout(function(){
+		$(".square").css("font-size", "16px");
+	}, 800);
 
-        ctx.fillStyle = '#00CCFF';
-		for (var i = 0; i < width; i++) {
-			bar_x = i*1;
-			bar_width = 1;
-			bar_height = (data[step*i] * amp) + 1;
-			bar_height > 0 ? bar_height*=-1 : bar_height;
-			ctx.fillRect(bar_x, canvas.height/2, bar_width, bar_height);
-			var bar = {
-				height: bar_height
-			}
-			bars_arr.push(bar);
+}
+
+function findItemToShow(ell, arr, e, durationHide, durationShow){
+	$(arr).each(function(index){
+		if($(arr[index]).attr("item") === $(e.target).attr("item")){
+			$(ell).hide(durationHide);
+			$(this).show(durationShow);
+			$(".close-button").show(400);
+			console.log($(arr[index]));
 		}
+	});
+}
 
-		renderCursor();
+if($(".square").length > 0){
+	setSquareAnimation();
+}
 
-		var source = context.createBufferSource();
-        source.buffer = buffer;
-        source.connect(context.destination);
-        source.start();
+var leftItemArr;
+var ell;
+var squereE;
+var currentSlide;
+var contentContainer;
 
-        var cursor = document.getElementById("cursor");
+$(".square").on("click", function(e){
+	currentSquere = $(this);
 
-        var allTime =  buffer.duration;
+	$(".main-content_right__item-preview").hide(300);
 
-        function renderCursor(){
-        	var timer = setInterval(function(){
+	var itemArr = $(".main-content").find(".item");
+	var ell = $(".item");
 
-        		var absoluteTime = context.currentTime;
-        		absoluteTime >= allTime ? clearInterval(timer) : false;
-        		var relativeTime = (absoluteTime * 100) / allTime;
-        		var absolutePosition = (relativeTime * width) / 100;
-        		cursor.style.left = absolutePosition + "px";
-        		var absoluteDone = (relativeTime * width) / 100;
-        		var absoluteDone = Math.ceil(absoluteDone);
-        		console.log(absoluteDone);
-        		ctx.fillStyle = '#000';
-        		for (var i = 0; i<absoluteDone; i++){
-        			bar_x = i*1;
-					bar_width = 1;      			
-        			ctx.fillRect(bar_x, canvas.height/2, bar_width, bars_arr[i].height);
-        		}
-        	}, 1000);
-        }
-        console.log(bars_arr);
-    });
-};
-request.send();
+	findItemToShow(ell ,itemArr, e, 300, 400);
+
+	if($(".main-content_left-content__item").length > 0){
+		leftItemArr = $(".main-content").find(".main-content_left-content__item");
+		ell = $(".square");
+		squereE = e;
+
+		findItemToShow(ell ,leftItemArr, e, 0, 0);
+
+	}
+
+});
+
+var a;
+
+$(".square-img").on("click", function(){
+	if($(this).parent().parent().attr("item") == "1"){
+		return;
+	}
+	var slideSelector = $(this).attr("slide");
+	var slidesContainer = $("." + slideSelector).find(".slider");
+
+	$(".main-content_right .item").hide();
+	$(".close-button").hide();
+	$(this).parent().parent().hide();
+	$(slidesContainer).show();
+	$(".back-btn").show();
+	
+	
+	$('.slider').slick({
+    	autoplay: true,
+    	arrows: false,
+    	fade: true,
+    	speed: 300
+  	});
+
+	contentContainer = $(".slider-content-container").find("." + slideSelector);
+	$(contentContainer).show();
+	console.log(slidesContainer);
+
+	currentSlide = slidesContainer;
+});
+
+
+$(".close-button").on("click", function(){
+	$(".item").hide(200);
+	$(".close-button").hide(200);
+	$(".main-content_right__item-preview").show(400);
+
+	if($(".main-content_left-content__item").length > 0){
+		$(".main-content_left-content__item").hide();
+		$(".square").show().css("animation", "none");
+	}
+});
+
+$(".back-btn").on("click", function(){
+	$('.slider').slick("unslick");
+
+	$(currentSlide).hide();
+
+	$(contentContainer).hide();
+	$(this).hide();
+	$(".close-button").show();
+
+	findItemToShow(ell ,leftItemArr, squereE, 0, 0);
+
+
+	console.log(leftItemArr);
+	console.log(squereE);
+
+	var arrRight = $(".main-content_right").find(".item");
+
+	$(arrRight).each(function(index){
+		if($(arrRight[index]).attr("item") === $(squereE.target).attr("item")){
+			$(this).show();
+		}
+	});
+});
