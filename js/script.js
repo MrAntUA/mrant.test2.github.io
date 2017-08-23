@@ -10,7 +10,7 @@ function setSquareAnimation(){
 	});
 
 	setTimeout(function(){
-		$(".square").css("font-size", "16px");
+		$(".square").css("font-size", "14px");
 	}, 800);
 
 }

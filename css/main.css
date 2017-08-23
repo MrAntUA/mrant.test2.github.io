@@ -238,6 +238,13 @@ table {
   line-height: 18px;
 }
 
+.main-content_right a {
+  font-family: "CalibreL";
+  font-size: 16px;
+  line-height: 18px;
+  color: inherit;
+}
+
 .main-content_right-label {
   font-family: "CalibreR";
   font-size: 24px;
@@ -562,6 +569,72 @@ table {
   background-image: url(../img/kantorens/kantoren-4/kantoren-1.jpg);
 }
 
+.square-img-8-1 {
+  background-image: url(../img/nen/img-1.png);
+  background-size: cover;
+}
+
+.square-img-8-2 {
+  background-image: url(../img/nen/img-2.png);
+  background-size: cover;
+}
+
+.square-img-8-3 {
+  background-image: url(../img/nen/img-3.png);
+  background-size: cover;
+}
+
+.square-img-9-1 {
+  background-image: url(../img/derictive/img-1.png);
+  background-size: cover;
+}
+
+.square-img-9-2 {
+  background-image: url(../img/derictive/img-2.png);
+  background-size: cover;
+}
+
+.square-img-9-3 {
+  background-image: url(../img/derictive/img-3.png);
+  background-size: cover;
+}
+
+.square-img-9-4 {
+  background-image: url(../img/derictive/img-4.png);
+  background-size: cover;
+}
+
+.square-img-9-5 {
+  background-image: url(../img/derictive/img-5.png);
+  background-size: cover;
+}
+
+.square-img-9-6 {
+  background-image: url(../img/derictive/img-6.png);
+  background-size: cover;
+}
+
+.square-img-9-7 {
+  background-image: url(../img/derictive/img-7.png);
+  background-size: cover;
+}
+
+.square-img-9-8 {
+  background-image: url(../img/derictive/img-8.png);
+  background-size: cover;
+}
+
+.square-img-9-9 {
+  background-image: url(../img/derictive/img-9.png);
+  background-size: cover;
+}
+
+.square-img-9-10 {
+  background-image: url(../img/derictive/img-10.png);
+  background-size: cover;
+}
+
+
 .main-content_left-detail-img {
   height: 450px;
   width: 80%;
@@ -645,6 +718,15 @@ table {
   left: calc(50% - 370px);
 }
 
+.small-margin{
+  margin: 5px; 
+}
+
+.first-kubic{
+  line-height: 16px;
+  padding-top: 64px
+}
+
 @media (max-width: 1200px) {
   .main-wrap {
     height: auto;
@@ -697,6 +779,10 @@ table {
     height: 125px;
     line-height: 110px;
   }
+  .first-kubic{
+    line-height: 16px;
+    padding-top: 42px
+  }
 }
 
 @media (max-width: 650px) {
@@ -727,15 +813,15 @@ table {
     height: 80px;
     line-height: 20px;
     padding-top: 20px;
-    font-size: 14px !important;
+    font-size: 12px !important;
   }
   .project .square {
     padding-top: 0;
     line-height: 80px;
   }
-  .first-left-col {
+  /*.first-left-col {
     display: block;
-  }
+  }*/
   .first-left-col .square {
     margin: 0 auto;
   }
@@ -767,6 +853,11 @@ table {
     left: -webkit-calc(50% - 129px);
     left: calc(50% - 129px);
     top: 30px;
+  }
+
+  .first-kubic{
+    line-height: 16px!important;
+    padding-top: 26px!important;
   }
 }
 
