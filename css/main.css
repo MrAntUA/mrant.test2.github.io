@@ -727,6 +727,19 @@ table {
   padding-top: 64px
 }
 
+.cookie-container{
+  width: 50%;
+  padding-top: 30px;
+  margin: 0 auto;
+  font-family: "CalibreM";
+  font-size: 20px;
+  color: #efecc0
+}
+
+.cookie-container a{
+  color: inherit
+}
+
 @media (max-width: 1200px) {
   .main-wrap {
     height: auto;
