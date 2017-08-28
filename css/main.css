@@ -830,6 +830,10 @@ table {
     height: 400px
   }
 
+  .disclaimer .main-content_right:after{
+    display: none;
+  }
+
 }
 
 @media (max-width: 900px) {
