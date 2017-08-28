@@ -60,7 +60,7 @@ $(".square").on("click", function(e){
 var a;
 
 $(".square-img").on("click", function(){
-	if($(this).parent().parent().attr("item") == "1"){
+	if($(this).parent().parent().attr("item") == "1" || $(this).parent().parent().attr("item") == "8" || $(this).parent().parent().attr("item") == "9"){
 		return;
 	}
 	var slideSelector = $(this).attr("slide");
