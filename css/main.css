@@ -792,6 +792,17 @@ table {
   color: inherit
 }
 
+.slider-container{
+    width: 900px;
+    float: right;
+}
+
+@media (max-width: 1310px) {
+  .slider-container{
+    width: 100%;
+  }
+}
+
 @media (max-width: 1200px) {
   .main-wrap {
     height: auto;
