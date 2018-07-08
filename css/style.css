@@ -1,4 +1,4 @@
- Reset styles */
+/* Reset styles */
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -20,7 +20,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -127,6 +127,16 @@ a{
 	font-family: "CGothic";
 	font-size: 0;
 	font-weight: 400;
+	transition: .6s;
+}
+
+.main-header .main-menu .mobile-btn{
+	display: none;
+	cursor: pointer;
+}
+
+.main-header .main-menu .close-menu{
+	display: none;
 }
 
 .main-header .main-menu .menu-container ul{
@@ -791,4 +801,209 @@ a{
   color: #999;
 }
 
-/* Custom styles end
+/* Custom styles end */
+
+/* ************************************** */
+
+/* JS Classes */
+	
+	.main-header .main-menu .menu-container.menu-open{
+		top: 0;
+	}
+
+/* JS Classes end */
+
+/* ************************************** */
+
+/* Responsive */
+
+@media(max-width: 900px){
+	.main-header .main-menu .menu-container{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		position: absolute;
+	    right: 0;
+	    top: -200vh;
+	    padding: 20px;
+	    height: 100vh;
+	    width: 100%;
+	    text-align: center;
+	    background-color: rgba(0, 0, 0, .9);
+	}
+	
+	.main-header .main-menu .close-menu{
+		display: block;
+		width: 20px;
+		height: 20px;
+		position: absolute;
+		top: 30px;
+		right: 30px;
+		background-image: url(../img/close.png);
+		-webkit-background-size: cover;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		cursor: pointer;
+	}
+
+	.main-header .main-menu .menu-container ul{
+		display: block;
+		max-width: 130px;
+		margin: 0 auto;
+	}
+	
+	.main-header .main-menu .menu-container ul li{
+		display: block;
+		margin-left: 0;
+		margin-top: 20px;
+		font-size: 16px;
+	}
+
+	.main-header .main-menu .menu-container ul li:first-child{
+		margin-top: 0;
+	}
+
+	.main-header .main-menu .mobile-btn{
+		display: block;
+	}
+
+	.main-header .main-menu .menu-container .enter-btn{
+		display: block;
+		width: 105px;
+    	margin: 20px auto 0;
+		font-weight: 600;
+	}
+
+	.contact-form__container .contact-form{
+		width: 100%;
+		max-width: 400px;
+	}
+
+	.main-footer .sitemap .logo{
+		display: block;
+		position: static;
+		margin: 0 auto 30px;
+	}
+
+	.copyright{
+		margin-top: 30px;
+	}
+
+	.cms-container .content-inner .item{
+		width: 33.33%;
+		margin-top: 20px;
+	}
+}
+
+@media(max-width: 720px){
+	.contact-page .contacts-container .block{
+		display: block;
+		padding: 0;
+	}
+
+	.contact-page .contacts-container .right{
+		margin-top: 25px;
+		border: none;
+	}
+
+	.contact-page .contacts-container .contacts{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.payment-container .content-inner .item{
+		width: 50%;
+	}
+
+	.section-container{
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+
+	.choose-container .content-inner .left{
+		width: 100%;
+	}
+
+	.choose-container .content-inner .right{
+		display: none;
+	}
+}
+
+@media(max-width: 600px){
+	.main-header .main-menu .logo{
+		width: 150px;
+		padding-top: 9px;
+	}
+
+	.main-header .main-menu .logo img{
+		width: 100%;
+		height: auto;
+	}
+	
+	.contact-form__container .contact-form{
+		padding: 0 15px;
+	}
+
+	.contact-form__container .contact-form input[type="text"], .contact-form__container .contact-form textarea{
+		padding: 10px;
+	}
+
+	.content-section .section-label{
+		font-size: 24px;
+		line-height: 28px;
+	}
+
+	.feedback-container .content-inner{
+		padding: 0 25px;
+		line-height: 18px;
+		font-size: 12px;
+	}
+
+	.feedback-container .slider-prev{
+		left: 6px;
+	}
+
+	.feedback-container .slider-next{
+		right: 6px;
+	}
+
+	.choose-container .content-inner{
+		padding-top: 30px;
+	}
+}
+
+@media(max-width: 450px){
+	.choose-container .content-inner .block .item{
+		width: 100%;
+		margin-left: 0;
+		margin-top: 30px;
+	}
+	
+	.choose-container .content-inner .block  .first-item{
+		margin-top: 0;
+	}
+
+	.choose-container .content-inner .items-row{
+		margin-top: 0;
+	}
+}
+
+@media(max-width: 400px){
+	.cms-container .content-inner .item{
+		width: 50%;
+	}
+}
+
+@media(max-width: 330px){
+	.payment-container .content-inner .item{
+		padding: 0 10px;
+	}
+
+	.payment-container .content-inner .item img{
+		width: 100%;
+		height: auto;
+	}
+}
+
+/* Responsive end */
