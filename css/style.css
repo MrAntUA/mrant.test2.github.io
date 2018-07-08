@@ -817,6 +817,12 @@ a{
 
 /* Responsive */
 
+@media(max-width: 1200px){
+	.services-container .services ul{
+		padding-left: 10px;
+	}
+}
+
 @media(max-width: 900px){
 	.main-header .main-menu .menu-container{
 		display: flex;
@@ -894,6 +900,22 @@ a{
 		width: 33.33%;
 		margin-top: 20px;
 	}
+
+	.home-header .section-container .right{
+		display: none;
+	}
+
+	.home-header .section-container .left{
+		width: 100%;
+	}
+
+	.services-container .services li, .services-container .services .price, .services-container .services ul li:last-child{
+		width: 14.28%;
+	}
+
+	.services-container .services .service-header:after{
+		width: 80%;
+	}
 }
 
 @media(max-width: 720px){
@@ -927,6 +949,17 @@ a{
 
 	.choose-container .content-inner .right{
 		display: none;
+	}
+}
+
+@media(max-width: 650px){
+	.services-container .services{
+		overflow-x: scroll;
+		overflow-y: hidden;
+	}
+
+	.services-container .services .services-table{
+		min-width: 570px;
 	}
 }
 
@@ -970,6 +1003,19 @@ a{
 
 	.choose-container .content-inner{
 		padding-top: 30px;
+	}
+
+	.home-header .section-container{
+		padding-top: 70px;
+	}
+
+	.home-header .section-container .block .intro h1{
+		font-size: 28px;
+		line-height: 32px;
+	}
+
+	.home-header .section-container .block{
+		padding: 0;
 	}
 }
 
