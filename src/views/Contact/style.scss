@@ -1,0 +1,124 @@
+.map-wrapp{
+    height: 500px;
+}
+
+.contact-container{
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.contact-wrapp{
+    padding: 40px 0 45px;
+
+    .contact-form{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 40px;
+        padding: 20px 0;
+        background-color: #fff;
+        box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.5);
+
+        form{
+            width: 50%;
+            padding: 0 20px;
+            text-align: center;
+
+            button{
+                color: #fff;
+            }
+        }
+        
+        .contact-info{
+            width: 50%;
+            padding: 0 20px;
+
+            .call-block{
+                color: #4d4d4d;
+                
+                .header{
+                    margin-bottom: 10px;
+                    font-size: 13px;
+                    font-weight: 700;
+
+                    a{
+                        margin-left: 10px;
+                        color: #0190e3;
+                        font-size: 18px;
+                        font-weight: 300;
+                    }   
+                }
+
+                .text{
+                    margin-bottom: 10px;
+                    font-size: 13px;
+                    font-weight: 700;
+                }
+            }
+
+            .contact-block{
+                margin-top: 40px;
+                color: #4d4d4d;
+
+                .header{
+                    margin-bottom: 10px;
+                    font-size: 13px;
+                    font-weight: 700;
+
+                    span{
+                        margin-left: 10px;
+                    }
+                }
+
+                .label{
+                    margin-bottom: 5px;
+                    color: #0190e3;
+                    font-size: 18px;
+                    font-weight: 300;
+                }
+
+                .info{
+                    font-size: 15px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 768px){
+    .map-wrapp{
+        height: 300px;
+    }
+
+    .contact-wrapp {
+        padding: 25px 15px;
+
+        .contact-form{
+            flex-wrap: wrap;
+            margin-top: 30px;
+            padding-top: 10px;
+
+            form{
+                width: 100%;
+                margin-bottom: 20px;
+                padding: 0 10px;
+            }
+            
+            .contact-info{
+                width: 100%;
+                padding: 0 10px;
+            }
+
+            .v-text-field__details{
+                display: none;
+            }
+        }
+    }
+}
+
+@media(max-width: 450px){
+    .contact-wrapp .contact-form .contact-info .call-block .header a{
+        font-size: 16px;
+    }
+}

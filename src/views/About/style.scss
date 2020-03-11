@@ -1,0 +1,138 @@
+.about .section-1{
+    height: 300px;
+    min-height: auto;
+    background-position: center center;
+}
+
+.cases{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+
+    .case{
+        width: 20%;
+        min-height: 105px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 15px;
+        border-radius: 7px;
+        background-color: #fff;
+        margin: 0 10px;
+        color: #4d4d4d;
+        box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.5);
+
+        i{
+            color: #0190e3;
+        }
+
+        p{
+            margin-top: 10px;
+            margin-bottom: 0;
+        }
+    }
+}
+
+.strategy{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    li{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: calc(50% - 20px);
+        min-height: 80px;
+        padding: 20px;
+        margin: 35px 10px 0;
+        text-align: center;
+        border-radius: 8px;
+        color: #fff;
+
+        &:nth-child(odd){
+            background-image: linear-gradient(to right, #8CC63E 0%, #0090e3 100%);
+        }
+
+        &:nth-child(even){
+            background-image: linear-gradient(to right, #0090e3 0%, #8CC63E 100%);
+        }
+
+        &:before{
+            display: none!important;
+        }
+    }
+}
+
+.testimonials{
+    padding-top: 40px;
+}
+
+.slide-wrapp{
+    text-align: center;
+}
+
+.slide-text{
+    font-size: 16px;
+    font-style: italic;
+}
+
+.slide-author{
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+@media(max-width: 1024px){
+    .cases{
+        flex-wrap: wrap;
+
+        .case{
+            width: 33.33%;
+            margin-top: 20px;
+        }
+    }
+
+    .testimonials{
+
+        & > div > div{
+            align-items: center;
+        }
+    }
+}
+
+@media(max-width: 768px){
+    .strategy{
+        flex-wrap: wrap;
+
+        li{
+            width: 100%;
+            max-width: 600px;
+            margin: 20px auto 0;
+            min-height: 60px;
+            padding: 10px;
+            font-size: 14px;
+        }
+    }
+}
+
+@media(max-width: 600px){
+    .cases{
+
+        .case{
+            width: calc(50% - 20px);
+            margin: 20px 10px 0;
+        }
+    }
+}
+
+@media(max-width: 450px){
+    .cases{
+
+        .case{
+            width: 100%;
+            margin: 20px 0 0;
+        }
+    }
+}

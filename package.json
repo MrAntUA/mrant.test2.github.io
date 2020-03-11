@@ -1,29 +1,57 @@
 {
-    "title": "Tasc",
-    "name": "tasc",
-    "version": "1.0.0",
-    "scripts": {
-        "start": "node_modules/.bin/gulp watch",
-        "build": "node_modules/.bin/gulp build"
+  "name": "test",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@auth0/auth0-spa-js": "^1.6.3",
+    "axios": "^0.19.2",
+    "core-js": "^3.4.4",
+    "js-cookie": "^2.2.1",
+    "leaflet": "^1.6.0",
+    "vue": "^2.6.10",
+    "vue-carousel": "^0.18.0",
+    "vue-router": "^3.1.5",
+    "vue2-leaflet": "^2.5.2",
+    "vuetify": "^2.2.8",
+    "vuex": "^3.1.2"
+  },
+  "devDependencies": {
+    "@mdi/font": "^4.9.95",
+    "@vue/cli-plugin-babel": "^4.1.0",
+    "@vue/cli-plugin-eslint": "^4.1.0",
+    "@vue/cli-service": "^4.1.0",
+    "babel-eslint": "^10.0.3",
+    "deepmerge": "^4.2.2",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "fibers": "^4.0.2",
+    "sass": "^1.25.0",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
     },
-    "description": "Tasc tenders platform",
-    "author": "Ivan Kramnyuk",
-    "devDependencies": {
-        "browser-sync": "2.26.7",
-        "del": "4.1.1",
-        "gulp": "^4.0.2",
-        "gulp-autoprefixer": "6.1.0",
-        "gulp-clean-css": "4.2.0",
-        "gulp-plumber": "^1.2.1",
-        "gulp-rename": "1.4.0",
-        "gulp-sass": "4.0.2",
-        "gulp-uglify": "3.0.2",
-        "merge-stream": "2.0.0"
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {
+      "no-console": "off"
     },
-    "browserslist": [
-        "defaults",
-        "not IE 11",
-        "not IE_Mob 11",
-        "maintained node versions"
-    ]
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
 }
