@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/mrant.test2.github.io/static/css/main.9f9d41d8.chunk.css",
+    "main.js": "/mrant.test2.github.io/static/js/main.9841b48b.chunk.js",
+    "main.js.map": "/mrant.test2.github.io/static/js/main.9841b48b.chunk.js.map",
+    "runtime-main.js": "/mrant.test2.github.io/static/js/runtime-main.47fa4b21.js",
+    "runtime-main.js.map": "/mrant.test2.github.io/static/js/runtime-main.47fa4b21.js.map",
+    "static/css/2.b90ce945.chunk.css": "/mrant.test2.github.io/static/css/2.b90ce945.chunk.css",
+    "static/js/2.806a6507.chunk.js": "/mrant.test2.github.io/static/js/2.806a6507.chunk.js",
+    "static/js/2.806a6507.chunk.js.map": "/mrant.test2.github.io/static/js/2.806a6507.chunk.js.map",
+    "index.html": "/mrant.test2.github.io/index.html",
+    "precache-manifest.1e3a4d389b19eab113dc5b46ca713da9.js": "/mrant.test2.github.io/precache-manifest.1e3a4d389b19eab113dc5b46ca713da9.js",
+    "service-worker.js": "/mrant.test2.github.io/service-worker.js",
+    "static/css/2.b90ce945.chunk.css.map": "/mrant.test2.github.io/static/css/2.b90ce945.chunk.css.map",
+    "static/css/main.9f9d41d8.chunk.css.map": "/mrant.test2.github.io/static/css/main.9f9d41d8.chunk.css.map",
+    "static/js/2.806a6507.chunk.js.LICENSE.txt": "/mrant.test2.github.io/static/js/2.806a6507.chunk.js.LICENSE.txt",
+    "static/media/accounts-active.svg": "/mrant.test2.github.io/static/media/accounts-active.1a26c22e.svg",
+    "static/media/calendar.svg": "/mrant.test2.github.io/static/media/calendar.0b933919.svg",
+    "static/media/chip.svg": "/mrant.test2.github.io/static/media/chip.2b36db2f.svg",
+    "static/media/clients-active.svg": "/mrant.test2.github.io/static/media/clients-active.55a6fa73.svg",
+    "static/media/device-active.svg": "/mrant.test2.github.io/static/media/device-active.f045f0f6.svg",
+    "static/media/down-arrow.svg": "/mrant.test2.github.io/static/media/down-arrow.e840bd6a.svg",
+    "static/media/gear.svg": "/mrant.test2.github.io/static/media/gear.9501fe4d.svg",
+    "static/media/logo.svg": "/mrant.test2.github.io/static/media/logo.38e28fdc.svg",
+    "static/media/logout.svg": "/mrant.test2.github.io/static/media/logout.b6890bc9.svg",
+    "static/media/mail.svg": "/mrant.test2.github.io/static/media/mail.51c44790.svg",
+    "static/media/search.svg": "/mrant.test2.github.io/static/media/search.c749c649.svg",
+    "static/media/team.svg": "/mrant.test2.github.io/static/media/team.f5936394.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.47fa4b21.js",
+    "static/css/2.b90ce945.chunk.css",
+    "static/js/2.806a6507.chunk.js",
+    "static/css/main.9f9d41d8.chunk.css",
+    "static/js/main.9841b48b.chunk.js"
+  ]
+}
