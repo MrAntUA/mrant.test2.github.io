@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/mrant.test2.github.io/static/css/main.6d6df459.chunk.css",
-    "main.js": "/mrant.test2.github.io/static/js/main.19feccbb.chunk.js",
-    "main.js.map": "/mrant.test2.github.io/static/js/main.19feccbb.chunk.js.map",
+    "main.js": "/mrant.test2.github.io/static/js/main.afbc50b2.chunk.js",
+    "main.js.map": "/mrant.test2.github.io/static/js/main.afbc50b2.chunk.js.map",
     "runtime-main.js": "/mrant.test2.github.io/static/js/runtime-main.47fa4b21.js",
     "runtime-main.js.map": "/mrant.test2.github.io/static/js/runtime-main.47fa4b21.js.map",
     "static/css/2.b90ce945.chunk.css": "/mrant.test2.github.io/static/css/2.b90ce945.chunk.css",
-    "static/js/2.806a6507.chunk.js": "/mrant.test2.github.io/static/js/2.806a6507.chunk.js",
-    "static/js/2.806a6507.chunk.js.map": "/mrant.test2.github.io/static/js/2.806a6507.chunk.js.map",
+    "static/js/2.9154bfdb.chunk.js": "/mrant.test2.github.io/static/js/2.9154bfdb.chunk.js",
+    "static/js/2.9154bfdb.chunk.js.map": "/mrant.test2.github.io/static/js/2.9154bfdb.chunk.js.map",
     "index.html": "/mrant.test2.github.io/index.html",
-    "precache-manifest.022407ccd746e9813994b173ecf89fe5.js": "/mrant.test2.github.io/precache-manifest.022407ccd746e9813994b173ecf89fe5.js",
+    "precache-manifest.85c074f58a3cd284f502fdcf67bdbab6.js": "/mrant.test2.github.io/precache-manifest.85c074f58a3cd284f502fdcf67bdbab6.js",
     "service-worker.js": "/mrant.test2.github.io/service-worker.js",
     "static/css/2.b90ce945.chunk.css.map": "/mrant.test2.github.io/static/css/2.b90ce945.chunk.css.map",
     "static/css/main.6d6df459.chunk.css.map": "/mrant.test2.github.io/static/css/main.6d6df459.chunk.css.map",
-    "static/js/2.806a6507.chunk.js.LICENSE.txt": "/mrant.test2.github.io/static/js/2.806a6507.chunk.js.LICENSE.txt",
+    "static/js/2.9154bfdb.chunk.js.LICENSE.txt": "/mrant.test2.github.io/static/js/2.9154bfdb.chunk.js.LICENSE.txt",
     "static/media/accounts-active.svg": "/mrant.test2.github.io/static/media/accounts-active.1a26c22e.svg",
     "static/media/calendar.svg": "/mrant.test2.github.io/static/media/calendar.0b933919.svg",
     "static/media/chip.svg": "/mrant.test2.github.io/static/media/chip.2b36db2f.svg",
@@ -30,8 +30,8 @@
   "entrypoints": [
     "static/js/runtime-main.47fa4b21.js",
     "static/css/2.b90ce945.chunk.css",
-    "static/js/2.806a6507.chunk.js",
+    "static/js/2.9154bfdb.chunk.js",
     "static/css/main.6d6df459.chunk.css",
-    "static/js/main.19feccbb.chunk.js"
+    "static/js/main.afbc50b2.chunk.js"
   ]
 }

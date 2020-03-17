@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/mrant.test2.github.io/precache-manifest.022407ccd746e9813994b173ecf89fe5.js"
+  "/mrant.test2.github.io/precache-manifest.85c074f58a3cd284f502fdcf67bdbab6.js"
 );
 
 self.addEventListener('message', (event) => {
