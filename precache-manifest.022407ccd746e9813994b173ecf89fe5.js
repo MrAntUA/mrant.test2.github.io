@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d1de39a3bce781ca56c08910aea55b4e",
+    "revision": "7eaadcbf96e0a0dea6c3c47ebf813ea1",
     "url": "/mrant.test2.github.io/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mrant.test2.github.io/static/css/2.b90ce945.chunk.css"
   },
   {
-    "revision": "51a6276651e37a1e27c8",
-    "url": "/mrant.test2.github.io/static/css/main.9f9d41d8.chunk.css"
+    "revision": "b4974d54d6a6c99f843f",
+    "url": "/mrant.test2.github.io/static/css/main.6d6df459.chunk.css"
   },
   {
     "revision": "ec5ee15c725168ffa3f9",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mrant.test2.github.io/static/js/2.806a6507.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "51a6276651e37a1e27c8",
-    "url": "/mrant.test2.github.io/static/js/main.4b6eece0.chunk.js"
+    "revision": "b4974d54d6a6c99f843f",
+    "url": "/mrant.test2.github.io/static/js/main.19feccbb.chunk.js"
   },
   {
     "revision": "47aa504878212a4eefc0",
